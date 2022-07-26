@@ -1,0 +1,187 @@
+/*Container*/
+.container
+{
+    width:100%;
+    height:100%;
+}
+/*Satır1-Gmail Bölümü*/
+.satir1
+{
+width:auto;
+float: left;
+margin-left:82%;
+}
+/*Satır2-Fotoğrafım*/
+.satir2
+{
+width:auto;
+float: left;
+}
+/*Appsbutton özellikleri ayarlandı*/
+#img
+{
+width:20px;
+float: left;
+margin-top: 35px;
+}
+/*fotoğrafımın özellikleri ayarlandı*/
+#img1
+{
+width:40px;
+border-radius: 50%;
+float: left;
+margin: 25px 0px 0px 25px;
+}
+/*paragraf ÖZelllikleri ayarlandı*/
+.paragraf
+{
+    float: left;
+    margin-right: 25px;
+    padding-top:20px;
+}
+/* link özellikleri */
+a.test:hover 
+{
+   text-decoration: underline;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+} 
+/*Satır3-logo */
+.satir3
+{
+width:auto;
+float: left;
+margin-left:40%;
+}
+/*Serach kısmında bilgileri tutacak alan oluşturuldu*/
+.search-area {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius:30px;
+    box-shadow: none;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: -77px;
+    width: 582px;
+  }
+  /* Search bar kısmının shadow özelliği ayarlandı */
+  .search-area:hover {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  }
+  /* Search özelliği eklendi */
+  .search {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+  }
+  
+ /* Arama simgesi ayarlandı */
+  .search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+  }
+  /* Arama simgesi ayarlandı  */
+  .search-img span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+  }
+   /*Ses simgesi ayarlandı  */
+  .ses {
+    height: 24px;
+    padding-left:30px;
+    width: 24px;
+    vertical-align: middle;
+}
+/*Search Bar özellikleri ayarlandı  */
+.arama {
+    width: 480px;
+    border:none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.87);
+    outline: none;
+}
+/*Buton yeri ayarlandı*/
+.satir4
+{
+    width:auto;
+    height:auto;
+    float: left;
+    margin-left: 40%;
+}
+/*Buton Özellikleri ayarlandı*/
+.button input[type="submit"], 
+.button1 {
+    background-color: #f8f9fa;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px; 
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+/* Fotter ayarlandı */
+.satir5
+{
+    width: 100%;
+    height:50px;
+    float: left;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    line-height: 10px;
+}
+/* Link özellikleri ayarlandı */
+ul
+{
+    list-style-type: none;
+    float: left;
+    margin-left: -18px;
+}
+ol
+{
+    list-style-type: none;
+    float:right;
+    margin-right:50px ;
+}
+li
+{
+    float: left;
+    padding-left: 35px;
+}
+li a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+  }
+  li a:hover {
+    text-decoration: underline;
+  }
+  
